@@ -1,3 +1,29 @@
-name: Luo Ji's land
-markdown: redcarpet
-pygments: true
+title: "blog title"
+author: "Blog Author"
+description: "Really cool blog about ... something"
+#subheading: "Really cool blog about ... something"
+more: "read more"
+url: "http://luoji.me"
+title: "呵呵哒"
+
+comments:
+    disqus: "weiqiyiji"
+
+style:
+#    body: "whitesmoke"
+    padding: 33%
+    anchor: "#46f"
+    serif-heading: true
+    nav: "#181818"
+#    headline: "#06f"
+    description: "white"
+    article:
+        odd: "#ffffff"
+        even: "#222222"
+
+links:
+  - github: "https://github.com/weiqiyiji/"
+  - reddit: "https://www.reddit.com/user/weiqiyiji/"
+
+excerpt_separator: "\n\n\n"
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
